@@ -196,13 +196,13 @@ Observe the results at:
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Canto (mainnet) Stepping Thread Group" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Canto (mainnet) Stepping Thread Group" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">1000</stringProp>
         <stringProp name="Threads initial delay">0</stringProp>
         <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">10</stringProp>
-        <stringProp name="Start users period">30</stringProp>
+        <stringProp name="Start users period">10</stringProp>
         <stringProp name="Stop users count">5</stringProp>
         <stringProp name="Stop users period">1</stringProp>
         <stringProp name="flighttime">60</stringProp>
@@ -454,13 +454,13 @@ Observe the results at:
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Fantom Stepping Thread Group" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Fantom Stepping Thread Group" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">1000</stringProp>
         <stringProp name="Threads initial delay">0</stringProp>
         <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">10</stringProp>
-        <stringProp name="Start users period">30</stringProp>
+        <stringProp name="Start users period">10</stringProp>
         <stringProp name="Stop users count">5</stringProp>
         <stringProp name="Stop users period">1</stringProp>
         <stringProp name="flighttime">60</stringProp>
@@ -712,13 +712,13 @@ Observe the results at:
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Nova Stepping Thread Group" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Nova Stepping Thread Group" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">1000</stringProp>
         <stringProp name="Threads initial delay">0</stringProp>
         <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">10</stringProp>
-        <stringProp name="Start users period">30</stringProp>
+        <stringProp name="Start users period">10</stringProp>
         <stringProp name="Stop users count">5</stringProp>
         <stringProp name="Stop users period">1</stringProp>
         <stringProp name="flighttime">60</stringProp>
@@ -970,13 +970,13 @@ Observe the results at:
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Gnosis Stepping Thread Group" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Gnosis Stepping Thread Group" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">1000</stringProp>
         <stringProp name="Threads initial delay">0</stringProp>
         <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">10</stringProp>
-        <stringProp name="Start users period">30</stringProp>
+        <stringProp name="Start users period">10</stringProp>
         <stringProp name="Stop users count">5</stringProp>
         <stringProp name="Stop users period">1</stringProp>
         <stringProp name="flighttime">60</stringProp>
@@ -1234,7 +1234,7 @@ Observe the results at:
         <stringProp name="Threads initial delay">0</stringProp>
         <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">10</stringProp>
-        <stringProp name="Start users period">30</stringProp>
+        <stringProp name="Start users period">10</stringProp>
         <stringProp name="Stop users count">5</stringProp>
         <stringProp name="Stop users period">1</stringProp>
         <stringProp name="flighttime">60</stringProp>
@@ -1492,7 +1492,7 @@ Observe the results at:
         <stringProp name="Threads initial delay">0</stringProp>
         <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">10</stringProp>
-        <stringProp name="Start users period">30</stringProp>
+        <stringProp name="Start users period">10</stringProp>
         <stringProp name="Stop users count">5</stringProp>
         <stringProp name="Stop users period">1</stringProp>
         <stringProp name="flighttime">60</stringProp>
